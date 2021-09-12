@@ -113,7 +113,7 @@ body{
     width: 5rem;
     height: 5rem;
     /* background-color: aliceblue; */
-    position: fixed;
+    position: absolute;
     z-index: 10;
     font-size: 200%;
     top: 40rem;
@@ -140,31 +140,63 @@ body{
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    background-color: brown;
+    background-color: rgb(211, 206, 206);
     
+}
+.nav{
+    height : 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+}
+.title_container{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 200%;
+    padding-left: 2rem;
+}
+.back_container{
+    /* position: absolute; */
+    z-index: 15;
+    top: 1rem;
+    right: 0rem;
+}
+.back{
+    height: 100%;
+    width: 100%;
+    font-size: 250%;
+    color: aliceblue;
+    padding-right: 1rem;
 }
 
 .gallery_vid_container, .gallery_img_container{
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-right: 2rem;
     height: 20rem;
     width: 18rem;
-    background-color: aquamarine;
+    background-color: rgb(226, 222, 226);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 0.2px solid gray;
+    box-shadow: 20%;
 }
 .video_elem, .img_elem{
     display: flex;
     height: 60%;
     width: 80%;
     justify-content: center;
+    /* border: 0.2px solid lightgrey; */
 }
 
 .gallery_download_btn, .gallery_delete_btn{
     width: 80%;
     font-family: 'Poppins', sans-serif;
+    border: 0.01px solid rgb(190, 184, 184);
+    margin-bottom: 0px;
 }
 
 @media (max-width :450px) {
