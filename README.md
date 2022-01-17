@@ -8,6 +8,7 @@
   The web application has the features of the traditional Web Camera on a laptop/mobile device. The same application is extended over a web browser.
   The Camera application stores the images clicked onto the indexedDB storage of the web browser. In this way the pictures clicked will be stored even when the browser is closed
   The application is built by just using Javascript, HTML, CSS from scratch without using any External API's or storage.
+  
 <img src = "camera1.png" />
 
 # Features
